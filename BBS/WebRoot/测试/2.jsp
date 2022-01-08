@@ -1,0 +1,1 @@
+<%String user=request.getParameter("user");%> <jsp:forward page="3.jsp"/> 

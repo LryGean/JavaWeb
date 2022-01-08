@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+.input_check {
+	position: absolute;
+	/*隐藏*/	
+	visibility: hidden;
+}
+
+/*label点击前的属性*/
+.input_check+label {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #ccc;
+}
+
+.input_check:checked+label{
+	width: 16px;
+	height: 16px;
+	background: #06F;
+	border: 0;
+}
+
+.input_check:checked+label: after{
+	content: "";
+	position: absolute;
+	left: 5px;
+	bottom: 12px;
+	width: 9px;
+	height: 4px;
+	border: 2px solid #fff;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	-ms-transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
+	transform: rotate(-45deg);
+}
+
+.input_check: hover+label{
+	border: 1px solid #5f90f2;
+}
+
