@@ -1,0 +1,1 @@
+<a href="2.jsp?user=tom">To 2.jsp</a> 
