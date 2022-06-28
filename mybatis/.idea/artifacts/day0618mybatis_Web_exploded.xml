@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day0618mybatis:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/day0618mybatis_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="day0618mybatis/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day0618mybatis" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.19.4" />
+          <element id="library" level="project" name="Maven: junit:junit:4.13.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.29" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.7" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
